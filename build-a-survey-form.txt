@@ -1,0 +1,152 @@
+** start of undefined **
+
+<!DOCTYPE html>
+ <html leng="eng">
+   <head>
+     <meta charset="utf-8">
+     <title>
+       Survey Application
+       <link rel="stylesheet" href="styles.css">
+       </title>
+       </head>
+
+<body>
+<div>
+  <header>
+    <h1 id="title">
+      freeCodeCamp Survey Form
+    </h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+   </header>
+</div>
+
+<form id="survey-form">
+  <div>
+    <label id="name-label">
+      Name
+    </label>
+     <input
+     id="name"
+     type="text"
+     name="name"
+     class="form-control"
+     placeholder="Enter Your Name"
+     required>
+     </div>
+
+  <div>
+    <label id="email-label">
+      Email
+    </label>
+      <input
+      id="email"
+      type="email"
+      name="email"
+      placeholder="Enter Your Email"
+      required>
+  </div>
+
+  <div>
+    <label id="number-label">
+      Age(optional)
+    </label>
+      <input
+      id="number"
+      type="number"
+      min="18"
+      max="100"
+      placeholder="Age"
+      required>
+  </div>
+
+  <div>
+    <p>
+      Which option best describes your current role?
+    </p>
+    <select id="dropdown">
+      <option>Full Time</option>
+      <option>Part Time</option>
+    </select>
+   </div>
+
+   <div>
+     <p>Would you recommend freeCodeCamp to a friend?</p>
+     <label>Yes
+       <input
+       type="radio"
+       value="Yes"
+       name="reccomend">
+      </label>
+   </div>
+
+   <div>
+     <label>No
+       <input
+       type="radio"
+       value="No"
+       name="reccomend">
+     </label>
+   </div>
+
+   
+   <div>
+     <p>What is your favorite feature of freeCodeCamp?</p>
+     <label>Front-end Projects
+       <input
+       type="checkbox"
+       value="front-end">
+     </label>
+   </div>
+
+   <div>
+     <label>Back-End Projects
+       <input
+       type="checkbox"
+       value="back-end">
+     </label>
+   </div>
+
+   <div>
+     <label>
+       <p>Any comments or suggestions?</p>
+       <textarea col=50 row="4" placeholder="Type here"></textarea>
+     </label>
+   </div>
+
+   <div>
+     <input 
+     id="submit"
+     type="submit"
+
+
+   </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
